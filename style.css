@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+a:active {
+  background: #999;
+}
+
+@media screen and (min-width: 500px) {
+  .navbar-nav a {
+    color: #000;
+    font-size: 1.5rem;
+  }
+
+  .header {
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  .about {
+    padding: 3rem;
+  }
+
+  .about-text {
+    padding: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .about-text p {
+    font-size: 1.6rem;
+  }
+
+  .fa-bars {
+    font-size: 1.4rem;
+  }
+
+
+  .link-container {
+    width: 10%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .link-container a:active {
+    background: none;
+  }
+
+  .products-header {
+    width: 20%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .products-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 50% 50%;
+  }
+
+  .products-container div {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 4px #999;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 50%;
+    margin: 3rem auto 0;
+  }
+
+  .footer-container div {
+    padding: 1.5rem;
+  }
+
+  .footer-container a {
+    color: #fff;
+  }
+
+  footer {
+    background: #000;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    color: #333;
+    font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  a:active {
+    background: #999;
+  }
+
+  .fa-bars {
+    font-size: 1.4rem;
+  }
+
+  .nav-container {
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .logo h2 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .navbar-nav a {
+    font-size: 1.4rem;
+  }
+
+  section.about {
+    padding: 3rem 0;
+  }
+
+  .header {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .about-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about-text p {
+    padding: 1.5rem 0;
+    font-size: 2rem;
+  }
+
+  .link-container {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .link-container a:active {
+    background: none;
+  }
+
+  .products {
+    padding: 2rem 0;
+  }
+
+  .products-header {
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .products-container {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2.2rem;
+  }
+
+  .products-container div {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 4px #999;
+  }
+
+  footer {
+    padding: 3rem 0;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .footer-container div {
+    padding: 0.5rem;
+  }
+
+  .hello {
+    display: block;
+    margin-right: 7rem;
+    justify-self: flex-start;
+  }
+
+  img {
+    width: 100%;
+  }
+}
