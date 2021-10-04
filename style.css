@@ -40,6 +40,8 @@ a:active {
   }
 
   .fa-bars {
+    border: none;
+    color: #000;
     font-size: 1.4rem;
   }
 
@@ -119,6 +121,8 @@ a:active {
   }
 
   .fa-bars {
+    border: none;
+    color: #000;
     font-size: 1.4rem;
   }
 
@@ -224,6 +228,7 @@ a:active {
   }
 
   button {
+    border: none;
     outline: none;
   }
 }
